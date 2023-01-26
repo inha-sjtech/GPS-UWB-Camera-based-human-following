@@ -14,5 +14,5 @@
 **ros 패키지**
 1. robot_localization
 2. realsense2_camera
-# 1. 코드 실행
+# 2. 코드 실행
 1. roslaunch main.launch

@@ -29,6 +29,7 @@ uwb 기반 팔로우 미
 # 2. 네트워크 설정
 
 1. 아두이노
+
    const char* ssid = "(네트워크 이름)";
    
    const char* password = "(네트워크 비밀번호)";
@@ -36,6 +37,7 @@ uwb 기반 팔로우 미
    IPAddress server((ros ip 주소));
 
 2. ros
+   
    sudo nano ~/.bashrc
 
    #ROS alias

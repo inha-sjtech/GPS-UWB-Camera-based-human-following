@@ -29,23 +29,21 @@ uwb 기반 팔로우 미
 # 2. 네트워크 설정
 
 1. 아두이노
-const char* ssid = "(네트워크 이름)";
-
-const char* password = "(네트워크 비밀번호)";
-
-IPAddress server((ros ip 주소));
+   const char* ssid = "(네트워크 이름)";
+   const char* password = "(네트워크 비밀번호)";
+   IPAddress server((ros ip 주소));
 
 2. ros
-sudo nano ~/.bashrc
+   sudo nano ~/.bashrc
 
-#ROS alias
-alias cw='cd ~/catkin_ws'
-alias cs='cd ~/catkin_ws/src'
-alias cm='cd ~/catkin_ws && catkin_make'
-alias eb='gedit ~/.bashrc'
+   #ROS alias
+   alias cw='cd ~/catkin_ws'
+   alias cs='cd ~/catkin_ws/src'
+   alias cm='cd ~/catkin_ws && catkin_make'
+   alias eb='gedit ~/.bashrc'
 
-source /opt/ros/melodic/setup.bash
-source ~/catkit_bot_ws/devel/setup.bash
+   source /opt/ros/melodic/setup.bash
+   source ~/catkit_bot_ws/devel/setup.bash
 
-#export ROS_MASTER_URI=http://192.168.1.100:11311  (네트워크 ip)
-#export ROS_HOSTNAME=192.168.1.100  (네트워크 ip)
+   #export ROS_MASTER_URI=http://192.168.1.100:11311  (네트워크 ip)
+   #export ROS_HOSTNAME=192.168.1.100  (네트워크 ip)

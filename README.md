@@ -25,3 +25,25 @@ uwb 기반 팔로우 미
 3. arduino-dw1000-ng-master
    + https://github.com/F-Army/arduino-dw1000-ng 다운로드
    + stetch -> include library  -> add zip library
+
+# 2. 네트워크 설정
+
+1. 아두이노
+const char* ssid = "(네트워크 이름)";
+const char* password = "(네트워크 비밀번호)";
+IPAddress server((ros ip 주소));
+
+2. ros
+sudo nano ~/.bashrc
+
+#ROS alias
+alias cw='cd ~/catkin_ws'
+alias cs='cd ~/catkin_ws/src'
+alias cm='cd ~/catkin_ws && catkin_make'
+alias eb='gedit ~/.bashrc'
+
+source /opt/ros/melodic/setup.bash
+source ~/catkit_bot_ws/devel/setup.bash
+
+#export ROS_MASTER_URI=http://192.168.1.100:11311  (네트워크 ip)
+#export ROS_HOSTNAME=192.168.1.100  (네트워크 ip)

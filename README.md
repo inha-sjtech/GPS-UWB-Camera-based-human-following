@@ -9,19 +9,19 @@ uwb 기반 팔로우 미
 
 **아두이노 라이브러리**
 
-Esp32-SoftwareSerial-master
-1. esp32 보드 설정
-Preferences -> Additional Boards Manager URLs
-https://dl.espressif.com/dl/package_esp32_index.json
+1. Esp32-SoftwareSerial-master
+   + esp32 보드 설정
+   + Preferences -> Additional Boards Manager URLs
+   + https://dl.espressif.com/dl/package_esp32_index.json
 
-2. esp32 보드 다운
-tools -> board -> boards manager
-esp32 by espressif systems
+   + esp32 보드 다운
+   + tools -> board -> boards manager
+   + esp32 by espressif systems
 
-Rosserial_Arduino_Library-0.9.1
-1. stetch -> include library  -> manage library
-2. rosserial 검색 후 다운로드
+2. Rosserial_Arduino_Library-0.9.1
+   + stetch -> include library  -> manage library
+   + rosserial 검색 후 다운로드
 
-arduino-dw1000-ng-master
-1. https://github.com/F-Army/arduino-dw1000-ng 다운로드
-1. stetch -> include library  -> add zip library
+3. arduino-dw1000-ng-master
+   + https://github.com/F-Army/arduino-dw1000-ng 다운로드
+   + stetch -> include library  -> add zip library

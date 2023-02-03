@@ -30,7 +30,9 @@ uwb 기반 팔로우 미
 
 1. 아두이노
 const char* ssid = "(네트워크 이름)";
+
 const char* password = "(네트워크 비밀번호)";
+
 IPAddress server((ros ip 주소));
 
 2. ros
